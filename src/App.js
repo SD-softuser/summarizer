@@ -20,6 +20,11 @@ function App() {
             <img src={github} className="w-10 h-10 rounded-lg cursor-pointer" />
           </a>
         </div>
+
+        <div className="flex flex-col items-center justify-center mt-4 p-4">
+          <h1 className="text-3xl text-white text-center leading-10 font-semibold">Summerizer with <br /> <span className="text-5xl font-bold text-cyan-500">OpenAI GPT</span></h1>
+          <p className="mt-5 text-lg text-gray-500 sm:text-xl text-center max-w-2xl">Simply upload your document and get a quick summary using our Summerizer</p>
+        </div>
       </div>
     </div>
   );
